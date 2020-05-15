@@ -85,7 +85,9 @@ ul {
 *{
     transition: all 0.5s ease;
 }
-
+.marg-top{
+    margin-top: 34px;
+}
 .segments {
     padding: 27px 0;
 }
@@ -328,6 +330,10 @@ ul {
     font-weight: 700;
     margin-bottom: 15px;
     font-size: 22px;
+}
+.resume .timeline h4:hover
+{
+    color:#FF851B;
 }
 .resume .my-skill .content-right .card {
     background: transparent;
@@ -635,7 +641,16 @@ ul {
     transition: all .2s ease;
 }
 .contact .content-left ul li:hover a i {
-    color: #525252;
+    color: #FF851B;
+}
+.hover-eff
+{
+    transition: all 0.5s ease;
+}
+.hover-eff:hover
+{
+    color: #FF851B;
+    transition: all 0.5s ease;
 }
 .contact .content-left ul li:last-child {
     margin-right: 0;
