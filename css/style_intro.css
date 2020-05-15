@@ -11,7 +11,12 @@ html
 {
 	color: white;
 }
-
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
 body, html {
   height: 100%;
   overflow: hidden;
