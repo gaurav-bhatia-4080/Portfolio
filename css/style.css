@@ -299,6 +299,9 @@ ul {
     height: 100%;
     border-radius: 0 17px 17px 0;
 }
+.a:hover .b{
+    color: #FF851B;
+}
 
 /*resume*/
 .resume .timeline {
