@@ -1,3 +1,4 @@
+
 $(function() {
 
     'use strict';
@@ -137,3 +138,4 @@ function checkScroll() {
 
 
 window.addEventListener("scroll", checkScroll);
+
