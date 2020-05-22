@@ -86,6 +86,7 @@ ul {
 }
 .line-h-3{
     line-height: 3em;
+    text-align: center;
 }
 .segments {
     padding: 27px 0;
@@ -287,6 +288,27 @@ ul {
 }
 .a:hover .b{
     color: #FF851B;
+}
+/*Milestones*/
+
+.milestones h5
+{
+    text-align: center;
+}
+
+.milestones p
+{
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 44px;
+}
+.milestones p:hover
+{
+    color: #FF851B;
+}
+.milestones .indi
+{
+    padding:1em;
 }
 
 /*Resume Design*/
@@ -621,6 +643,7 @@ ul {
 /*footer*/
 .footer {
     text-align: center;
+    margin-bottom: 5em;
 }
 .footer p {
     margin-bottom: 0;
@@ -690,6 +713,9 @@ ul {
     .about .content-left .content h2 {
         font-size: 40px;
     }
+    .milestones .indi{
+        padding:3em;
+    }
 
     .resume .content-left .title-resume h2 {
         font-size: 40px;
@@ -724,6 +750,9 @@ ul {
 
     .about .content-right {
         display: none;
+    }
+    .milestones .indi{
+        padding:3em;
     }
 
     .resume .timeline::before {
